@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: #080000;
+  background-image: url('pattern.png');
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+#drum-machine > div {
+  box-shadow: -1px 1px 1px #666, -2px 2px 1px #666, -3px 3px 1px #666,
+    -4px 4px 1px #666, -5px 5px 1px #888, -6px 6px 1px #888;
+}
+.drum-pad {
+  background-color: #030300;
+  background-image: url('rubber-grip.png');
+}
